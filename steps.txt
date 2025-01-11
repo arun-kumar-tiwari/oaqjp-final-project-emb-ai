@@ -1,0 +1,32 @@
+
+
+Task 1: Fork and Clone the project repository
+git clone https://github.com/arun-kumar-tiwari/oaqjp-final-project-emb-ai.git final_project
+
+Task 2: Create an emotion detection application using Watson NLP library
+created emotion_detection.py 
+
+Task 3: Format the output of the application
+formatted outpu in emotion_detection.py 
+
+Task 4: Package the application
+create folder EmotionDetection
+move file emotion_detection.py
+create __init__.py
+
+Task 5: Run Unit tests on your application
+create file test_emotion_detection.py
+
+Task 6: Deploy as web application using Flask
+create server.py
+run the code python3.11 server.py
+
+Task 7: Incorporate Error handling
+updated code in 
+emotion_detection.py
+server.py
+
+Task 8: Run static code analysis
+pip3 install pylint==2.11.1
+pylint server.py 
+
